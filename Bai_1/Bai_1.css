@@ -5,14 +5,13 @@
   font-family: "Times New Roman",Arial,sans-serif;
   font-size: 15px;
 }
-
 .container {
   width: 500px;
   height: 685px;
   margin: 5px auto;
   border: 1px solid #dfdfdf;
+  resize: none;
 }
-
 .profile {
   width: auto;
   height: 128px;
@@ -69,9 +68,11 @@
   position: relative;
   width: auto;
   height: 43px;
+  line-height:1;
   padding-top: 9px;
   padding-left: 19px;
-  background-color: #d6d6d6;
+  padding-bottom: 5px;
+  background-color: #ececec;
 }
 
 .comment__content:after {
@@ -81,13 +82,19 @@
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 15px solid #d6d6d6;
+  border-top: 15px solid #ececec;
   top: 100%;
   left: 19px;
 }
 .comment__post {
   padding-left: 52px;
+  margin-top: 3px;
+  margin-bottom: 1px;
   font-size: 13px;
+}
+.comment__post a {
+  text-decoration: none;
+  font-size: 13px ;
 }
 .your-commnet {
   width: auto;
@@ -101,6 +108,7 @@
   width: 383px;
   height: 85px;
   text-align: left;
+  padding: 2px;
 }
 .your-commnet__table input {
   width: 146px;
