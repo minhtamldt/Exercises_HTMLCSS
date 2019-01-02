@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Arial, Andalus, Cambria;
+  font-size: 13px;
+}
+
+.container {
+  width: 1263px;
+  height: 1105px;
+  margin: auto;
+  padding-left: 69px;
+  padding-top: 195px;
+  color: #595959;
+  background-color: #121214;
+  background-image: url("images/bnr_web_page.gif");
+  background-repeat: no-repeat;
+}
+
+.menu__item {
+  display: inline;
+  position: relative;
+  margin-right: 6px;
+}
+.menu__item a {text-decoration: none;}
+.menu__item span {
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  margin-right: 6px;
+  font-size: 30px;
+  color: white;
+}
+.side-left {
+  float: left;
+  width: 305px;
+  height: 358px;
+  margin-top: 89px;
+  padding: 43px 23px 0 21px;
+  background-color: #282828;
+}
+.side-left__content1 {padding: 29px 22px 67px 11px;}
+.side-left__line--color-silver {border: 1px solid #7e7e7e;}
+.side-left__line--color-grey {border: 1px solid #2c2c2c;}
+.side-left__list {
+  list-style-type: none;
+  margin-top: 28px;
+  padding-left: 20px;
+}
+.side-left__list li {line-height: 1.8;}
+.side-left__list a {
+  color: #595959;
+}
+.side-left__list li:before {
+  content: url("images/icn_list.png");
+  margin-right: 6px;
+}
+.side-right {
+  float: left;
+  width: 395px;
+  height: auto;
+  margin-top: 89px;
+  margin-left: 39px;
+}
+.side-right__logo {
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+.side-right__topic {
+  margin-left: 14px;
+  margin-right: 10px;
+}
+.side-right__block {
+  width: 114px;
+  height: 19px;
+  margin-bottom: 12px;
+  background-color: #595959;
+}
+.side-right__content {
+  margin-bottom: 17px;
+  font-size: 11px;
+}
+.side-right__line {
+  border: 1px dashed #595959;
+  margin-bottom: 16px;
+}
+.side-right__launch {color: white;}
+.side-right__launch:before {
+  content: url("images/icn_next.png");
+  margin-right: 5px;
+}
+.footer {
+  clear: both;
+  width: 730px;
+  padding-top: 71px;
+}
+.footer__line {
+  display: block;
+  border: 1px dashed #595959;
+}
+.footer__content {
+  margin-top: 24px;
+}

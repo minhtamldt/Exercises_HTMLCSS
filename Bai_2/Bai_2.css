@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Arial, "Arial Black", Cambria;
+  font-size: 12px;
+}
+
+.container {
+  width: 1031px;
+  height: 585px;
+  margin: 5px auto;
+  color: #595959;
+  background-color: #121214;
+}
+.side-left {
+  float: left;
+  width: 619px;
+  height: 100%;
+  padding-left: 185px;
+}
+.side-left__title {
+  width: auto;
+  height: 87px;
+  padding-top: 37px;
+  font-size: 12px;
+}
+.side-left__topic1 {
+  width: auto;
+  height: 143px;
+}
+.side-left__topic1-image {
+  float: left;
+}
+.side-left__topic2 {
+  width: auto;
+  height: 355px;
+}
+.side-left__line {
+  display: block;
+  margin-top: 13px;
+  margin-right: 27px;
+  border: 1px dashed transparent;
+  border-top: 1px dashed #2c2c2e;
+}
+.side-left__topic1-content {
+  float: left;
+  width: 302px;
+  line-height: .9;
+  padding-left: 23px;
+}
+.side-left__topic1-content p:last-child {
+  clear: both;
+  padding-bottom: 28px;
+}
+.side-left__topic2 {
+  padding-left: 18px;
+}
+
+.more-info--size1 {
+  padding-top: 15px;
+  padding-bottom: 86px;
+}
+.more-info--size2 {padding-top: 15px;}
+.more-info--size3 {padding-top: 40px}
+
+.more-info:before {
+  content: url("images/icn_next.png");
+  position: relative;
+  top: 2px;
+}
+.side-left__topic2-content2:first-line {color: white;}
+.side-left__topic2-table-list {padding-top: 25px;}
+.side-left__topic2-table-list a {color: #595959;}
+.side-left__topic2-table-list td:before {
+  content: url("images/icn_style_list.png");
+  margin-right: 9px;
+}
+.side-right {
+  float: left;
+  width: 237px;
+  height: 385px;
+  margin-top: 22px;
+  padding: 72px  22px 0;
+  background-color: #232227;
+}
+.side-right__line {
+  display: block;
+  border: 1px solid #353439;
+}
+.side-right__logo {
+  margin-top: 26px;
+  margin-left: 10px;
+}
+.side-right__content1 {margin-top: 21px;}
+.side-right__content1:first-line {line-height: 2;}
+.side-right__content2,.side-right__content1:first-line,.more-info {
+  color: white;
+}
+.side-right__content2,.side-right__content3 {
+  display: inline;
+}
+.footer {clear: both;}
