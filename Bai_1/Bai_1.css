@@ -51,10 +51,11 @@
   position: relative;
   padding: 20px 60px 0 37px;
   margin-bottom: 64px;
-  font-size: 15px;
+
 }
 .fact__list li {
   margin-bottom: 1.8px;
+  font-size: 15px;
 
 }
 .fact__list li:before {
