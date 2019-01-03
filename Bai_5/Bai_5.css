@@ -8,18 +8,21 @@
 
 .container {
   width: 1024px;
-  height: 5770px;
-  overflow: hidden;
+  height: 5902px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 133px;
   padding-top: 92px;
-  background-color: yellow;
-  background-image: url("images/bnr_header.jpg"), url("images/pic_footer.jpg");
+  background-image: url("images/bnr_header.jpg"), url("images/pic_back.jpg");
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
-
 }
+
+.container__line {
+  display: block;
+  border: 2.5px solid #b98031;
+}
+
 .menu-product  {
   display: flex;
   flex-wrap: wrap;
@@ -43,5 +46,65 @@ li:nth-child(2n) .btn-click{
 }
 .btn-click:hover {
   content: url("images/btn_click.jpg");
+}
+.footer {
+  height: 111px;
+  width: 100%;
+  padding-right: 5px;
+
+}
+.footer img {
+  float: right;
+  z-index: 5;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  margin-right: 26px;
+  background-color: #8b1a20;
+}
+.footer__list-menu {
+  clear: right;
+  width: 100%;
+  height: 53px;
+  padding-top: 15px;
+  background-color: #8b1a20;
+}
+.footer__list-menu li {
+  display: inline;
+  margin-left: 15px;
+  margin-top: 50px;
+  padding-left: 13px;
+}
+.footer__list-menu li:last-child {
+  margin-left: 23px;
+}
+
+.footer__list-menu li:nth-child(1) {
+  margin-left: 23px;
+}
+
+.footer__list-menu a {
+  font-size: 10px;
+  text-decoration: none;
+  color: #dfc2c4;
+}
+.footer__list-menu a:hover {
+  color: #67fff3;
+}
+.footer p {
+  position: relative;
+  bottom: 38px;
+  left: 705px;
+  display: inline;
+  letter-spacing: .9px;
+  color: #dfc2c4;
+  font-size: 10px;
+  font-family: Century;
+
+
+}
+
+.footer__list-menu li:before {
+  content: url("images/icn_list.png");
+  margin-right: 5px;
 }
 

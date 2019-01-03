@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Bai_5.css" description="&#10;" line="20" />
+    <bookmark url="file://$PROJECT_DIR$/Bai_5.css" description="&#10;" line="17" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4e99576-115f-4561-b822-3452f031c629" name="Default Changelist" comment="" />
@@ -13,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bai_5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            <state relative-caret-position="154">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bai_5.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="482">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -60,6 +60,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,7 +77,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,18 +110,20 @@
       <option name="presentableId" value="Default" />
       <updated>1546396479674</updated>
       <workItem from="1546396481063" duration="3030000" />
-      <workItem from="1546409102373" duration="10868000" />
+      <workItem from="1546409102373" duration="16815000" />
+      <workItem from="1546471974792" duration="1960000" />
+      <workItem from="1546481193163" duration="1942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13898000" />
+    <option name="totallyTimeSpent" value="23747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25341427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26100153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -148,15 +150,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pic_procduct2.jpg" />
     <entry file="file://$PROJECT_DIR$/images/Bai_5.css" />
-    <entry file="file://$PROJECT_DIR$/images/jf_w_mango_3_14.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/jf_w_mango_3_14.jpg" />
     <entry file="file://$PROJECT_DIR$/images/pic_poster.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/jf_w_mango_3_10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/jf_w_mango_3_10.jpg" />
     <entry file="file://$PROJECT_DIR$/images/pic_product2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -191,17 +189,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai_5.html">
+    <entry file="file://$PROJECT_DIR$/Bai_5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="482">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bai_5.css">
+    <entry file="file://$PROJECT_DIR$/Bai_5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="154">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
         </state>
       </provider>
     </entry>
