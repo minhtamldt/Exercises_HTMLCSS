@@ -7,15 +7,11 @@
 }
 .container {
   width: 500px;
-  height: 685px;
   margin: 5px auto;
   border: 1px solid #dfdfdf;
   resize: none;
 }
-.profile {
-  width: auto;
-  height: 128px;
-}
+
 .profile__title {
   width: auto;
   height: 28px;
@@ -27,7 +23,6 @@
   background-size: auto 16px;
   background-position: bottom;
 }
-
 .profile__avatar {
   float: left;
   margin-left: 13px;
@@ -36,69 +31,61 @@
   float: left;
   overflow: scroll;
   margin-left: 5px;
+  margin-bottom: 15px;
   width: 390px;
   height: 100px;
 
 }
-.fact {
-  width: auto;
-  height: 241px;
-}
-
 .fact__title {
-  padding-top: 18px;
+  clear: both;
   padding-left: 3px;
   font-size: 17px;
+  background-color: red;
 }
 
 .fact__list {
   list-style-type: none;
   position: relative;
-  padding: 27px 60px 0 37px;
+  padding: 20px 60px 0 37px;
+  margin-bottom: 64px;
+}
+.fact__list li {
+  margin-bottom: 1.8px;
 }
 .fact__list li:before {
   content: url("images/icn_star.png");
   padding-right: 5px;
 }
 .comment {
-  width: auto;
-  height: 145px;
+  margin-bottom: 30px;
 }
 .comment__content {
   position: relative;
   width: auto;
   height: 43px;
   line-height:1;
-  padding-top: 9px;
-  padding-left: 19px;
-  padding-bottom: 5px;
+  margin: auto 1px;
+  padding: 9px 0 5px 19px;
   background-color: #ececec;
 }
-
 .comment__content:after {
   position: absolute;
   content: "";
   width: 0;
-  height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #ececec;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #ececec;
   top: 100%;
   left: 19px;
 }
 .comment__post {
-  padding-left: 52px;
-  margin-top: 3px;
-  margin-bottom: 1px;
+  padding-left: 45px;
+  margin-top: 1.8px;
   font-size: 13px;
 }
 .comment__post a {
   text-decoration: none;
   font-size: 13px ;
-}
-.your-commnet {
-  width: auto;
-  height: 169px;
 }
 .your-commnet__table td:first-child {
   width: 105px;
@@ -112,4 +99,5 @@
 }
 .your-commnet__table input {
   width: 146px;
+  height: 22px;
 }
