@@ -2,24 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, "Times New Roman", SansSerif;
+  font-family: Arial, "Times New Roman", sans-serif;
   font-size: 12px;
 }
 .container {
   width: 316px;
   height: auto;
   margin: 16px auto 15px auto;
-  padding: 16px 9px 25px 11px;
+  padding: 2px 9px 17px 11px;
   background-color: #e6f3fb;
 }
+
 .title {
-  font-family: "Times New Roman";
-  font-size: 16px;
+  clear: both;
+  margin-top: 2px;
+  font-size: 15px;
 }
 .topic-1, .topic-2, .topic-3{
   width: 296px;
   height: auto ;
-  border-top: 4px solid #f7a418;
+  border-top: 3.5px solid #f7a418;
   background-color: white;
 }
 .topic-1__images-people{
@@ -37,20 +39,18 @@
   clear: both;
 }
 .topic-1__list-chat-item {
-  width: auto;
-  height: 32px;
-  padding: 9px 10px 12px;
+  padding: 9px 10px 11.8px;
   border-bottom: 1px solid #fff;
   background-color: #f9f1c2;
-  color: #0a6395;;
+  color: #0a6395;
 }
 .topic-2 {
   background-color: white;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .topic-2__image {
   float: left;
-  padding: 20px 23px 20px 14px;
+  padding: 20px 23px 52px 14px;
 }
 .topic-2__title {
   margin-top: 24px;
@@ -65,8 +65,6 @@
 .topic-2__footer {
   clear: both;
   width: 100%;
-  height: 50px;
-  margin-top: 15px;
   background: #f4f4ea;
 }
 .topic-2__footer__content:first-line {
@@ -74,40 +72,53 @@
   font-weight: normal;
 }
 .topic-2__footer__content {
+  clear: both;
   float: left;
   height: 100%;
-  padding: 13px 0  23px 12px;
+  padding: 12px 120px  7px 12px;
+  margin-bottom: 20px;
   color: #0a6395;
   font-weight: bold;
+  background-color: #f4f4ea;
 }
 .topic-2__footer-images {
+  position: absolute;
+  left: 756px;
   float: right;
 }
 .topic-3__content {
   float: left;
   clear: both;
-  width: 125px;
+  width: 100%;
+  padding-right: 140px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   height: auto;
-  margin: 24px auto 15px 23px;
+  background-color: white;
 }
 .topic-3__link {
   text-decoration: none;
   line-height: 30px;
   color: #0a6395;
 }
-.topic-3__images-phone {float: right;}
+.topic-3__images-phone {
+  float: right;
+  position: absolute;
+  left: 710px;
+
+  background-color: #4d5d73;
+}
 
 .line {
   display: block;
   clear: both;
   width: auto;
-  margin-top: 8px;
   margin-bottom: 3px;
   border: 1px solid #595959;
 }
 .topic-4 {
   border: 1px solid #595959;
-  padding-top: 21px;
   padding: 8px;
   color: #4d5d73;
   background-color: white;
