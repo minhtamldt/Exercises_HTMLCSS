@@ -97,6 +97,7 @@
 .your-commnet__table textarea {
   width: 383px;
   height: 85px;
+  resize: none;
   text-align: left;
   padding: 2px;
 }
