@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-size: 13px;
+  color: #595959;
+}
+
+.container {
+  width: 1263px;
+  height: auto;
+  margin: 5px auto;
+  padding-bottom: 66px;
+  background-image: url("images/bnr_web_page.gif");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: black;
+}
+.content {
+  padding-top: 197px;
+  padding-left: 69px;
+}
+.list-menu {list-style: none;}
+.list-menu__item {
+  display: inline-block;
+  position: relative;
+  margin-right: 3px;
+}
+
+.list-menu__item__name {
+  display: inline;
+  position: absolute;
+  top: 85px;
+  left: 30%;
+  color: #fff;
+  font-size: 20px;
+}
+.list-menu__item__name-last {left: 36%;}
+.side-left {
+  float: left;
+  width: 235px;
+  height: auto;
+  margin-top: 85px;
+  padding: 43px 23px 28.5px 21px;
+  background-color: #1f1f1f;
+}
+.side-left__line {
+  display: block;
+  border: .5px solid #7e7e7e;
+}
+.side-left__content {margin: 28px auto 67px 11px;}
+.side-left__line--doot {
+  border: .5px solid #2c2c2c;
+}
+.side-left__list {
+  margin-top: 20.5px;
+  list-style: none;
+}
+.side-left__list-item:before {
+  position: relative;
+  content: url("images/icn_list.gif");
+  bottom: 3px;
+  margin-right: 3px;
+  line-height: 1.85;
+}
+.side-content {
+  float: left;
+  margin-top:127px;
+  margin-left: 39px;
+  color: #595959;
+}
+.side-content__content {
+  padding-left: 14px;
+  letter-spacing: 0.3px ;
+}
+.side-content__block {
+  width: 114px;
+  height: 19px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  background-color: #2c2c2c;
+}
+.side-content__detail {
+  font-size: 11px;
+  margin-bottom: 14px;
+}
+.side-content__line {
+  display: block;
+  border: .5px dotted #121214;
+}
+.side-content__launch {
+  margin: 13px auto 38px auto;
+}
+.side-content__launch--link {
+  text-decoration: none;
+  font-size: 11px;
+  color: #fff;
+}
+.side-content__launch--link:before {
+  position: relative;
+  top: 2px;
+  content: url("images/icn_next.png");
+  margin-right: 5px;
+}
+.side-content__line--footer {
+  clear: both;
+  position: relative;
+  top: 27px;
+  width: 670px;
+}
+.side-content__footer  {
+  margin-top: 48.5px;
+  font-size: 10px;
+  color: #282828;
+}
+.side-content__footer-link {
+  font-size: 10px;
+  color: #282828;
+}
+
