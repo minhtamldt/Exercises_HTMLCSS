@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b0bc26-f693-4374-8d73-f6e785ca6191" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bai_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai_1/Bai_1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai_1/Bai_1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai_2/Bai_2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai_2/Bai_2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai_2/images/icn_style_list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai_3.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bai_3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icn_list.wbm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +82,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bai_4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -120,16 +113,15 @@
       <workItem from="1546386438967" duration="25000" />
       <workItem from="1546395822587" duration="118000" />
       <workItem from="1546396319008" duration="157000" />
-      <workItem from="1546786171127" duration="11234000" />
+      <workItem from="1546786171127" duration="11709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23947000" />
+    <option name="totallyTimeSpent" value="24422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="754" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26479515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
